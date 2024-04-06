@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <title>Suscribete a las notificacioens</title>
+</head>
+<body>
+    
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="/src/index.html">Inicio</a>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link" href="/src/newsForm.html">Suscribirse a las notificaciones</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+    <div class="container mt-5">
+        <h1>Suscribirse a las notificaciones</h1>
+        <div class="col-md-4 pb-5">
+        </div>
+        <div class = "row">
+            <div class = "col-md-4">
+                <img src="/resources/images/logo correo.png" alt="logo correo" class="img-fluid">
+            </div>
+            <div class = "col-md-8">
+                <p>Por favor, ingresa tus datos para suscribirte a las notificaciones de nuestro sitio web.</p>
+                <div class = "row">
+                    <form action="#TODO rellenar mas tarde" method="POST">
+                        <div class = "form-group">
+                            <label for="nombre">Nombre:</label>
+                        <input type="text" id="nombre" name="nombre" required><br><br>
+                        
+                        <label for="correo">Correo electrónico:</label>
+                        <input type="email" id="correo" name="correo" required><br><br>
+                        
+                        <label for="telefono">Teléfono:</label>
+                        <input type="tel" id="telefono" name="telefono" required><br><br>
+                        
+                        <input type="submit" value="Enviar">
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    
+   
+</body>
+</html>
